@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/simple_dungeon"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/abandoned_mineshaft"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/desert_pyramid"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/jungle_temple"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:chests/woodland_mansion"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
