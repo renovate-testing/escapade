@@ -2,6 +2,7 @@ package com.hrznstudio.escapade;
 
 import com.hrznstudio.escapade.registry.EscapadeEntityRegistration;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -27,11 +28,8 @@ public class Escapade {
         EscapadeEntityRegistration.register(bus);
     }
 
-    private void setup(final FMLCommonSetupEvent event) {
+    private void setup(final FMLCommonSetupEvent event) {}
 
-    }
+    private void doClientStuff(final FMLClientSetupEvent event) {}
 
-    private void doClientStuff(final FMLClientSetupEvent event) {
-
-    }
 }
