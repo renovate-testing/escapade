@@ -1,7 +1,7 @@
-package com.teamacronymcoders.escapade.datagen.impl.lang;
+package com.hrznstudio.escapade.datagen.impl.lang;
 
-import com.teamacronymcoders.escapade.datagen.impl.lang.base.EscapadeBaseLangProvider;
-import com.teamacronymcoders.escapade.registry.EscapadeEntityRegistration;
+import com.hrznstudio.escapade.datagen.impl.lang.base.EscapadeBaseLangProvider;
+import com.hrznstudio.escapade.registry.EscapadeEntityRegistration;
 import net.minecraft.data.DataGenerator;
 
 public class EscapadeEnglishLangProvider extends EscapadeBaseLangProvider {

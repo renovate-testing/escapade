@@ -1,4 +1,4 @@
-package com.teamacronymcoders.escapade.datagen.impl.tags;
+package com.hrznstudio.escapade.datagen.impl.tags;
 
 import net.minecraft.data.BlockTagsProvider;
 import net.minecraft.data.DataGenerator;

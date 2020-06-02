@@ -1,7 +1,7 @@
-package com.teamacronymcoders.escapade.registry;
+package com.hrznstudio.escapade.registry;
 
-import com.teamacronymcoders.escapade.Escapade;
-import com.teamacronymcoders.escapade.entity.treasurepig.TreasurePigEntity;
+import com.hrznstudio.escapade.Escapade;
+import com.hrznstudio.escapade.entity.treasurepig.TreasurePigEntity;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
 import net.minecraftforge.eventbus.api.IEventBus;

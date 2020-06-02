@@ -1,6 +1,6 @@
-package com.teamacronymcoders.escapade.datagen.impl.advancement;
+package com.hrznstudio.escapade.datagen.impl.advancement;
 
-import com.teamacronymcoders.escapade.datagen.ExtendableAdvancementProvider;
+import com.hrznstudio.escapade.datagen.ExtendableAdvancementProvider;
 import net.minecraft.data.DataGenerator;
 
 public class EscapadeAdvancementProvider extends ExtendableAdvancementProvider {

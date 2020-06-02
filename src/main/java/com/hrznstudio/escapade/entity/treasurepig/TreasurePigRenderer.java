@@ -1,6 +1,6 @@
-package com.teamacronymcoders.escapade.entity.treasurepig;
+package com.hrznstudio.escapade.entity.treasurepig;
 
-import com.teamacronymcoders.escapade.Escapade;
+import com.hrznstudio.escapade.Escapade;
 import net.minecraft.client.renderer.entity.EntityRendererManager;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.model.PigModel;

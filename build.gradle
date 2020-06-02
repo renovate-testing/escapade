@@ -54,9 +54,6 @@ minecraft {
 
 repositories {
     maven {
-        url 'https://cdn.hrzn.studio/maven/'
-    }
-    maven {
         url 'https://dvs1.progwml6.com/files/maven'
     }
     maven {
@@ -69,6 +66,7 @@ dependencies {
     compileOnly fg.deobf("mezz.jei:jei-${minecraft_version}:${jei_version}:api")
     // at runtime, use the full JEI jar
     runtimeOnly fg.deobf("mezz.jei:jei-${minecraft_version}:${jei_version}")
+    compile fg.deobf("curse.maven:hwyla:2880069")
 }
 
 jar {

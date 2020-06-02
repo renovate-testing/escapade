@@ -1,8 +1,8 @@
-package com.teamacronymcoders.escapade.datagen.impl.loottable;
+package com.hrznstudio.escapade.datagen.impl.loottable;
 
 import com.google.common.collect.Lists;
 import com.mojang.datafixers.util.Pair;
-import com.teamacronymcoders.escapade.Escapade;
+import com.hrznstudio.escapade.Escapade;
 import net.minecraft.block.Block;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.LootTableProvider;

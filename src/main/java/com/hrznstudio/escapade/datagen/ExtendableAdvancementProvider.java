@@ -1,8 +1,8 @@
-package com.teamacronymcoders.escapade.datagen;
+package com.hrznstudio.escapade.datagen;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.teamacronymcoders.escapade.Escapade;
+import com.hrznstudio.escapade.Escapade;
 import net.minecraft.advancements.Advancement;
 import net.minecraft.data.AdvancementProvider;
 import net.minecraft.data.DataGenerator;

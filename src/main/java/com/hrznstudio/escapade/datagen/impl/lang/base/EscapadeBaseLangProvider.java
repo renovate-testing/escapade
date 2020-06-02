@@ -1,11 +1,10 @@
-package com.teamacronymcoders.escapade.datagen.impl.lang.base;
+package com.hrznstudio.escapade.datagen.impl.lang.base;
 
-import com.teamacronymcoders.escapade.Escapade;
+import com.hrznstudio.escapade.Escapade;
 import net.minecraft.advancements.Advancement;
 import net.minecraft.advancements.DisplayInfo;
 import net.minecraft.block.Block;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.entity.EntityType;
 import net.minecraft.item.DyeColor;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.data.LanguageProvider;

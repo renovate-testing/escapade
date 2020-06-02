@@ -1,4 +1,4 @@
-package com.teamacronymcoders.escapade.datagen.impl.recipe;
+package com.hrznstudio.escapade.datagen.impl.recipe;
 
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.IFinishedRecipe;
