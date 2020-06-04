@@ -1,6 +1,6 @@
-package com.hrznstudio.escapade.datagen.impl.lang;
+package com.hrznstudio.escapade.datagen.impl.vanilla.lang;
 
-import com.hrznstudio.escapade.datagen.impl.lang.base.EscapadeBaseLangProvider;
+import com.hrznstudio.escapade.datagen.impl.vanilla.lang.base.EscapadeBaseLangProvider;
 import com.hrznstudio.escapade.registry.EscapadeEntityRegistration;
 import net.minecraft.data.DataGenerator;
 

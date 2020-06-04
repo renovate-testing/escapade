@@ -1,4 +1,4 @@
-package com.hrznstudio.escapade.datagen.impl.tags;
+package com.hrznstudio.escapade.datagen.impl.vanilla.tags;
 
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.ItemTagsProvider;

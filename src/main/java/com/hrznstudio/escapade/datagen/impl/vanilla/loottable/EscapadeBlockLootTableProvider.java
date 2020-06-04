@@ -1,4 +1,4 @@
-package com.hrznstudio.escapade.datagen.impl.loottable;
+package com.hrznstudio.escapade.datagen.impl.vanilla.loottable;
 
 import com.google.common.collect.Lists;
 import com.mojang.datafixers.util.Pair;

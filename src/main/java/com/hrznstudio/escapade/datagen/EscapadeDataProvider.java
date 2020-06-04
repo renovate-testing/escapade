@@ -1,16 +1,16 @@
 package com.hrznstudio.escapade.datagen;
 
 import com.hrznstudio.escapade.Escapade;
-import com.hrznstudio.escapade.datagen.impl.advancement.EscapadeAdvancementProvider;
-import com.hrznstudio.escapade.datagen.impl.lang.EscapadeEnglishLangProvider;
-import com.hrznstudio.escapade.datagen.impl.lang.EscapadeSwedishLangProvider;
-import com.hrznstudio.escapade.datagen.impl.loottable.EscapadeBlockLootTableProvider;
-import com.hrznstudio.escapade.datagen.impl.loottable.EscapadeEntityLootTableProvider;
-import com.hrznstudio.escapade.datagen.impl.recipe.EscapadeShapedRecipeProvider;
-import com.hrznstudio.escapade.datagen.impl.recipe.EscapadeShapelessRecipeProvider;
-import com.hrznstudio.escapade.datagen.impl.tags.EscapadeBlockTagProvider;
-import com.hrznstudio.escapade.datagen.impl.tags.EscapadeEntityTagProvider;
-import com.hrznstudio.escapade.datagen.impl.tags.EscapadeItemTagProvider;
+import com.hrznstudio.escapade.datagen.impl.vanilla.advancement.EscapadeAdvancementProvider;
+import com.hrznstudio.escapade.datagen.impl.vanilla.lang.EscapadeEnglishLangProvider;
+import com.hrznstudio.escapade.datagen.impl.vanilla.lang.EscapadeSwedishLangProvider;
+import com.hrznstudio.escapade.datagen.impl.vanilla.loottable.EscapadeBlockLootTableProvider;
+import com.hrznstudio.escapade.datagen.impl.vanilla.loottable.EscapadeEntityLootTableProvider;
+import com.hrznstudio.escapade.datagen.impl.vanilla.recipe.EscapadeShapedRecipeProvider;
+import com.hrznstudio.escapade.datagen.impl.vanilla.recipe.EscapadeShapelessRecipeProvider;
+import com.hrznstudio.escapade.datagen.impl.vanilla.tags.EscapadeBlockTagProvider;
+import com.hrznstudio.escapade.datagen.impl.vanilla.tags.EscapadeEntityTagProvider;
+import com.hrznstudio.escapade.datagen.impl.vanilla.tags.EscapadeItemTagProvider;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;

@@ -1,4 +1,4 @@
-package com.hrznstudio.escapade.datagen.impl.advancement;
+package com.hrznstudio.escapade.datagen.impl.vanilla.advancement;
 
 import com.hrznstudio.escapade.datagen.ExtendableAdvancementProvider;
 import net.minecraft.data.DataGenerator;

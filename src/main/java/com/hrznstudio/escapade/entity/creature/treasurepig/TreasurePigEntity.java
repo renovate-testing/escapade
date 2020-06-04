@@ -1,6 +1,6 @@
-package com.hrznstudio.escapade.entity.treasurepig;
+package com.hrznstudio.escapade.entity.creature.treasurepig;
 
-import com.hrznstudio.escapade.datagen.impl.loottable.EscapadeEntityLootTableProvider.EscapadeEntityLootTables;
+import com.hrznstudio.escapade.datagen.impl.vanilla.loottable.EscapadeEntityLootTableProvider.EscapadeEntityLootTables;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SharedMonsterAttributes;

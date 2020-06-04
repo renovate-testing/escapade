@@ -1,4 +1,4 @@
-package com.hrznstudio.escapade.datagen.impl.lang.base;
+package com.hrznstudio.escapade.datagen.impl.vanilla.lang.base;
 
 import com.hrznstudio.escapade.Escapade;
 import net.minecraft.advancements.Advancement;
