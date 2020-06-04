@@ -1,6 +1,7 @@
 package com.hrznstudio.escapade;
 
 import com.hrznstudio.escapade.registry.EscapadeEntityRegistration;
+import com.hrznstudio.titanium.tab.AdvancedTitaniumTab;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
@@ -15,6 +16,8 @@ import org.apache.logging.log4j.Logger;
 public class Escapade {
     public static final String MODID = "escapade";
     public static final Logger LOGGER = LogManager.getLogger(MODID);
+
+    public static final AdvancedTitaniumTab CORE = new AdvancedTitaniumTab("escapade_core", true);
 
     public Escapade() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);

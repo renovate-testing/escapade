@@ -32,6 +32,8 @@ public class AzureWealdBiome extends Biome {
         DefaultBiomeFeatures.addFossils(this);
         DefaultBiomeFeatures.addLakes(this);
 
+
+
         // Add extra Lapis Lazuli ore generation.
         this.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(new OreFeatureConfig(FillerBlockType.NATURAL_STONE, Blocks.LAPIS_ORE.getDefaultState(), 9)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(20, 32, 32, 80))));
 
