@@ -55,6 +55,9 @@ minecraft {
 
 repositories {
     maven {
+        url 'https://cdn.hrzn.studio/maven/'
+    }
+    maven {
         url "https://maven.teamacronymcoders.com/"
     }
     maven {
@@ -69,8 +72,11 @@ dependencies {
     // Forge
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
+    // Titanium
+    compile fg.deobf("com.hrznstudio:titanium:${titanium_version}")
+
     // Patchouli & Patchouli Provider
-    compile fg.deobf("curse.maven:patchouli:2945108")
+    compile fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}")
     compileOnly fg.deobf("xyz.brassgoggledcoders:PatchouliProvider:${patchouli_provider_version}")
 
     // JEI
