@@ -50,6 +50,7 @@ minecraft {
             }
         }
     }
+    accessTransformer = file('src/main/resources/META-INF/accesstranformer.cfg')
 }
 
 repositories {
